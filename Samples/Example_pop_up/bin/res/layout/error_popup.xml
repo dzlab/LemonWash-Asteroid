@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/error_popup"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="@dimen/config_popup_margin"
+	android:layout_marginRight="@dimen/config_popup_margin"
+	android:layout_marginTop="@dimen/config_popup_margin"
+	android:layout_marginBottom="@dimen/config_popup_margin"
+	android:paddingLeft="@dimen/config_popup_horizontal_padding"
+	android:paddingRight="@dimen/config_popup_horizontal_padding"
+	android:paddingTop="@dimen/config_popup_vertical_padding"
+	android:paddingBottom="@dimen/config_popup_vertical_padding"	
+	android:orientation="vertical">
+
+	<!-- The popup text -->
+	<TextView	
+		android:id="@+id/error_popup_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:typeface="normal"
+		android:layout_gravity="left"
+		android:singleLine="false"
+		android:scrollHorizontally="false"
+		android:textSize="@dimen/config_popup_text_size"
+		android:gravity="center"
+		/>
+
+	<!-- The row containing both buttons -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="@dimen/config_popup_buttons_margin_top"
+		>
+		
+		<!-- Valid button -->
+		<ImageButton
+   			android:id="@+id/error_popup_button_ok"
+   			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+   			android:focusable="true"
+   			android:background="@drawable/button_valid"
+   			android:focusableInTouchMode="true"
+   			android:nextFocusDown="@+id/error_popup_button_cancel"
+   			/>
+   			
+   		<!-- cancel button -->
+   		<ImageButton
+			android:id="@+id/error_popup_button_cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_cancel"
+   			android:focusable="true"
+   			android:focusableInTouchMode="true"
+   			android:nextFocusUp="@+id/error_popup_button_ok"
+   			android:layout_marginLeft="@dimen/config_popup_buttons_space_between"
+			/>
+	</LinearLayout>
+</LinearLayout>

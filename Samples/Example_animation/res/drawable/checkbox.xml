@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true"
+          android:drawable="@drawable/cbox_black_on"/>
+    <item android:state_checked="false" android:state_selected="true"
+          android:drawable="@drawable/cbox_black_off"/>
+    <item android:state_checked="true" android:state_focused="true"
+          android:drawable="@drawable/cbox_black_on"/>
+    <item android:state_checked="false" android:state_focused="true"
+          android:drawable="@drawable/cbox_black_off"/>
+	<item android:state_checked="true"
+          android:drawable="@drawable/cbox_white_on"/>
+    <item android:state_checked="false"
+          android:drawable="@drawable/cbox_white_off"/>
+</selector>

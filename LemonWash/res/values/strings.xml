@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lemon Wash</string>
+    
+    <string name="Title_auth">Authentification</string>
+    <string name="phone_nb_form">N° tel</string>
+    <string name="psw_form">Mot de passe</string>
+    <string name="ok_form">Se connecter</string>
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/loading_circle_1on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_2on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_3on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_4on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_5on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_6on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_7on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_8on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_9on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_10on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_11on12" android:duration="45"/>
+	<item android:drawable="@drawable/loading_circle_12on12" android:duration="45"/>
+</animation-list>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+
+
+    <com.google.android.maps.MapView 
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0z0m8xZ4-BLLNm6hxPEB3qI_P6Oji-hLg0sJbaA"
+        />
+<!-- android:apiKey="0yg9-IIoHOcMmhmnYJTnb6AVkThZH9hCWaAOWMA" --> 
+        <TextView android:id="@+id/civic_addr" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Situé env. au 20 av. de l'Opéra, Paris 2éme"
+        android:layout_alignTop="@id/mapview"
+        android:textColor="#000000"
+        />
+        
+        <LinearLayout android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        /> 
+        
+        <Button android:id="@+id/btnWashMe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Commander un lavage"
+            android:layout_alignBottom="@id/mapview"
+            />
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+ 
+<resources>
+    <string name="app_name">@string/DISP_TEXT_APP_MAPS</string>
+
+    <string name="err_msg_appli_no_network">@string/DISP_TEXT_ERROR_NO_NETWORK</string>
+    <string name="err_msg_feature_no_network">@string/DISP_TEXT_ERROR_NO_NETWORK_FEATURE</string>
+    <string name="network_error">@string/DISP_TEXT_NETWORK_ERROR</string>
+
+    <string name="err_msg_appli_no_location">@string/DISP_TEXT_ERROR_NO_LOCATION</string>
+
+    <string name="search_label">@string/DISP_TEXT_SEARCH</string>
+    <string name="search_hint">@string/DISP_TEXT_SEARCH_HINT</string>
+
+    <string name="options_menu_item_quick_search">@string/DISP_TEXT_QUICK_SEARCH</string>
+    <string name="options_menu_item_search">@string/DISP_TEXT_SEARCH</string>
+    <string name="options_menu_item_mylocation">@string/DISP_TEXT_MY_LOCATION</string>
+    <string name="options_menu_item_traffic">@string/DISP_TEXT_TRAFFIC</string>
+    <string name="options_menu_item_clean_map">@string/DISP_TEXT_CLEAN_MAP</string>
+    <string name="options_menu_item_exit">@string/DISP_TEXT_QUIT</string>
+    
+    <string name="options_menu_item_map_mode">@string/S_MODE</string>
+    <string name="map_mode_map">@string/DISP_TEXT_MODE_MAP</string>
+    <string name="map_mode_satellite">@string/DISP_TEXT_MODE_SATELLITE</string>
+    
+    <string name="options_menu_item_result_display">@string/DISP_TEXT_RESULTS_DISPLAY_MODE</string>
+    <string name="results_display_map">@string/DISP_TEXT_MODE_MAP</string>
+    <string name="results_display_result_list">@string/DISP_TEXT_MODE_LIST</string>
+    <string name="results_display_map_and_result_list">@string/DISP_TEXT_MODE_LIST_AND_MAP</string>
+    
+    <string name="options_menu_item_directions_display">Directions display</string>
+    <string name="directions_display_map">@string/DISP_TEXT_MODE_MAP</string>
+    <string name="directions_display_instruction_list">@string/DISP_TEXT_MODE_LIST</string>
+    <string name="directions_display_map_and_instruction_list">@string/DISP_TEXT_MODE_LIST_AND_MAP</string>
+    
+    <string name="options_menu_item_directions">@string/DISP_TEXT_SEARCH_DIRECTIONS</string>
+    <string name="options_menu_item_layers">@string/DISP_TEXT_LAYERS</string>
+    <string name="layer_traffic">@string/DISP_TEXT_TRAFFIC</string>
+    <string name="layer_wikipedia">@string/DISP_TEXT_WIKIPEDIA</string>
+    <string name="layer_photos">@string/DISP_TEXT_LAYER_PHOTOS</string>
+
+    <string name="options_menu_item_next_results">@string/DISP_TEXT_NEXT_RESULTS</string>
+    <string name="options_menu_item_previous_results">@string/DISP_TEXT_PREVIOUS_RESULTS</string>
+    
+    <string name="map_myposition_trying">@string/DISP_TEXT_SEARCHING_CURRENT_LOCATION</string>
+    <string name="map_myposition_failed">@string/DISP_TEXT_SEARCHING_CURRENT_LOCATION_FAILED</string>
+    
+    <string name="quick_search_list_header_text">@string/DISP_TEXT_TITLE_CATEGORIES</string>
+
+    <string name="searchlist_entry_fuelstations">@string/DISP_TEXT_POI_CATEGORY_FUELSTATIONS</string>
+    <string name="searchlist_entry_bars">@string/DISP_TEXT_POI_CATEGORY_BARS</string>
+    <string name="searchlist_entry_restaurants">@string/DISP_TEXT_POI_CATEGORY_RESTAURANTS</string>
+    <string name="searchlist_entry_hotels">@string/DISP_TEXT_POI_CATEGORY_HOTELS</string>
+    <string name="searchlist_entry_cinemas">@string/DISP_TEXT_POI_CATEGORY_MOVIE_THEATERS</string>
+    <string name="searchlist_entry_coffee">@string/DISP_TEXT_POI_CATEGORY_COFFE</string>
+    <string name="searchlist_entry_medical">@string/DISP_TEXT_POI_CATEGORY_MEDICAL</string>
+    <string name="searchlist_entry_parking">@string/DISP_TEXT_POI_CATEGORY_PARKINGS</string>
+    <string name="searchlist_entry_sport">@string/DISP_TEXT_POI_CATEGORY_SPORT</string>
+    <string name="searchlist_entry_leisure">@string/DISP_TEXT_POI_CATEGORY_LEISURE</string>
+    <string name="searchlist_entry_transport">@string/DISP_TEXT_POI_CATEGORY_TRANSPORT</string>
+    <string name="searchlist_entry_shopping">@string/DISP_TEXT_POI_CATEGORY_SHOPPING</string>
+    <string name="searchlist_entry_finance">@string/DISP_TEXT_POI_CATEGORY_FINANCE</string>
+    <string name="searchlist_entry_community">@string/DISP_TEXT_POI_CATEGORY_COMMUNITY</string>
+	<string name="searchlist_entry_free">@string/DISP_TEXT_POI_CATEGORY_FREE</string>
+
+    <string name="searching_progress_dialog_title">@string/DISP_STATE_POPUP_TITLE_WRITEWARNING</string>
+    <string name="searching_progress_dialog_msg">@string/DISP_TEXT_TITLE_SEARCHING</string>
+    <string name="search_no_result">@string/DISP_TEXT_SEARCH_NO_RESULT</string>
+    
+    <string name="author">@string/S_MAIL_AUTHOR</string>
+    
+    <string name="wp_article_link">@string/DISP_TEXT_FULL_ARTICLE</string>
+    
+    <string name="button_ok">@string/DISP_TEXT_BUTTON_OK</string>
+    <string name="button_invert">@string/DISP_TEXT_INVERT</string>
+
+    <string name="direction_address_start">@string/DISP_TEXT_DIRECTIONS_START_POINT</string>
+    <string name="direction_address_arrival">@string/DISP_TEXT_DIRECTIONS_ARRIVAL_POINT</string>
+    <string name="direction_address_mylocation">@string/DISP_TEXT_MY_LOCATION</string>
+    <string name="direction_address_contacts">@string/DISP_TEXT_POPUP_TEXT_CONTACTS</string>
+    <string name="direction_define_start_add_msg">@string/DISP_TEXT_DIRECTIONS_CHOOSE_START</string>
+    <string name="direction_define_dest_add_msg">@string/DISP_TEXT_DIRECTIONS_CHOOSE_DESTINATION</string>
+    <string name="direction_progress_dialog_msg">@string/DISP_TEXT_DIRECTION_PROGRESS</string>
+    <string name="addresses_progress_dialog_msg">@string/DISP_TEXT_ADDRESSES_PROGRESS</string>
+    <string name="direction_choose_address_title">@string/DISP_TEXT_CHOOSE_ADDRESS</string>
+    
+    <string name="item_select_prompt">@string/DISP_TEXT_SELECT_AN_ITEM</string>
+    
+    <string name="route_overview_prompt">@string/DISP_TEXT_ROUTE_OVERVIEW</string>
+    
+    <string name="poi_details_goto">@string/DISP_TEXT_GOTO</string>
+    <string name="poi_details_goto_error">@string/DISP_TEXT_ERROR_NO_NAVIGATION_SOFTWARE</string>
+    <string name="poi_details_call">@string/DISP_TEXT_CALL</string>
+    <string name="poi_details_directions">@string/DISP_TEXT_SEARCH_DIRECTIONS</string>
+    <string name="poi_details_add_to_poi_book">@string/DISP_TEXT_ADD_TO_POI_BOOK</string>
+    <string name="poi_details_add_to_poi_book_error">@string/DISP_TEXT_ADD_TO_POI_BOOK_FAILED</string>
+    <string name="poi_details_add_to_poi_book_success">@string/DISP_TEXT_ADD_TO_POI_BOOK_SUCCESS</string>
+    <string name="poi_details_add_to_contacts">@string/DISP_TEXT_ADD_TO_CONTACTS</string>
+    <string name="poi_details_show_on_map">@string/DISP_TEXT_SHOW_ON_MAP</string>
+    <string name="poi_details_cannot_dial_number">@string/XTEXT_PAIRED_DEVICE_EMPTY_1</string>
+    
+    <string name="mylocation_unknown">@string/DISP_TEXT_MY_LOCATION_UNKNWON</string>
+    <string name="direction_not_found">@string/DISP_TEXT_DIRECTION_NOT_FOUND</string>
+
+    <string name="photo_downloading_progress_dialog_title">@string/DISP_TEXT_DOWNLOADING_PHOTO</string>
+    <string name="photo_downloading_progress_dialog_msg">@string/DISP_STATE_POPUP_TITLE_WRITEWARNING</string>
+    <string name="photo_downloading_failed_msg">@string/DISP_TEXT_DOWNLOAD_FAILED</string>
+
+    <string name="map_mode_hybrid">Hybrid</string>
+    <string name="map_mode_terrain">Terrain</string>
+    <string name="photo_link_prompt"><u>View in </u></string>
+
+    <string name="DISP_TEXT_SEARCH_HINT"></string>
+</resources>

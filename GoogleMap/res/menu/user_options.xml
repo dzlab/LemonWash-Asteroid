@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/optOrder"
+          android:title="Commander"
+          />
+    <item android:id="@+id/optParams"
+          android:title="Paramêtres" 
+          />
+    <item android:id="@+id/optLogout"
+          android:title="Déconnecter" 
+          />
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<resources>
+    <string name="DISP_STATE_POPUP_TITLE_WRITEWARNING">请稍候</string>
+    <string name="DISP_TEXT_ADD_TO_CONTACTS">添加到通讯簿</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK">添加到兴趣点列表</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK_FAILED">添加到兴趣点列表失败</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK_SUCCESS">已添加到列表的兴趣点</string>
+    <string name="DISP_TEXT_ADDRESSES_PROGRESS">搜索地址</string>
+    <string name="DISP_TEXT_APP_MAPS">地图</string>
+    <string name="DISP_TEXT_BUTTON_OK">OK</string>
+    <string name="DISP_TEXT_CALL">拨号</string>
+    <string name="DISP_TEXT_CHOOSE_ADDRESS">选择地址</string>
+    <string name="DISP_TEXT_CLEAN_MAP">删除结果</string>
+    <string name="DISP_TEXT_DIRECTION_NOT_FOUND">没有找到路线</string>
+    <string name="DISP_TEXT_DIRECTION_PROGRESS">计算路线时间</string>
+    <string name="DISP_TEXT_DIRECTIONS_ARRIVAL_POINT">到达点</string>
+    <string name="DISP_TEXT_DIRECTIONS_CHOOSE_DESTINATION">请定义到达点</string>
+    <string name="DISP_TEXT_DIRECTIONS_CHOOSE_START">请定义出发点</string>
+    <string name="DISP_TEXT_DIRECTIONS_START_POINT">出发点</string>
+    <string name="DISP_TEXT_DOWNLOAD_FAILED">下载时出现错误</string>
+    <string name="DISP_TEXT_DOWNLOADING_PHOTO">下载照片</string>
+    <string name="DISP_TEXT_ERROR_NO_LOCATION">该应用程序需要有效的 GPS 位置</string>
+    <string name="DISP_TEXT_ERROR_NO_NAVIGATION_SOFTWARE">GPS导航程序无法使用</string>
+    <string name="DISP_TEXT_ERROR_NO_NETWORK">该应用程序需要互联网连接</string>
+    <string name="DISP_TEXT_ERROR_NO_NETWORK_FEATURE">该功能需要互联网连接</string>
+    <string name="DISP_TEXT_FULL_ARTICLE">条目已满</string>
+    <string name="DISP_TEXT_GOTO">出发!</string>
+    <string name="DISP_TEXT_INVERT">调换</string>
+    <string name="DISP_TEXT_LAYER_PHOTOS">照片</string>
+    <string name="DISP_TEXT_LAYERS">界面</string>
+    <string name="DISP_TEXT_MODE_LIST">列表</string>
+    <string name="DISP_TEXT_MODE_LIST_AND_MAP">列表+地图</string>
+    <string name="DISP_TEXT_MODE_MAP">地图</string>
+    <string name="DISP_TEXT_MODE_SATELLITE">卫星</string>
+    <string name="DISP_TEXT_MY_LOCATION">我的位置</string>
+    <string name="DISP_TEXT_MY_LOCATION_UNKNWON">所在位置未能辨别</string>
+    <string name="DISP_TEXT_NETWORK_ERROR">出现网络错误</string>
+    <string name="DISP_TEXT_NEXT_RESULTS">下一个</string>
+    <string name="DISP_TEXT_POI_CATEGORY_BARS">酒吧</string>
+    <string name="DISP_TEXT_POI_CATEGORY_COFFE">咖啡馆</string>
+    <string name="DISP_TEXT_POI_CATEGORY_COMMUNITY">公共场所</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FINANCE">金融</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FREE">其它</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FUELSTATIONS">加油站</string>
+    <string name="DISP_TEXT_POI_CATEGORY_HOTELS">酒店</string>
+    <string name="DISP_TEXT_POI_CATEGORY_LEISURE">游乐场</string>
+    <string name="DISP_TEXT_POI_CATEGORY_MEDICAL">健康</string>
+    <string name="DISP_TEXT_POI_CATEGORY_MOVIE_THEATERS">电影院 </string>
+    <string name="DISP_TEXT_POI_CATEGORY_PARKINGS">停车场</string>
+    <string name="DISP_TEXT_POI_CATEGORY_RESTAURANTS">餐馆</string>
+    <string name="DISP_TEXT_POI_CATEGORY_SHOPPING">商场</string>
+    <string name="DISP_TEXT_POI_CATEGORY_SPORT">运动</string>
+    <string name="DISP_TEXT_POI_CATEGORY_TRANSPORT">交通</string>
+    <string name="DISP_TEXT_POPUP_TEXT_CONTACTS">通讯簿</string>
+    <string name="DISP_TEXT_PREVIOUS_RESULTS">上一个</string>
+    <string name="DISP_TEXT_QUICK_SEARCH">快速搜索</string>
+    <string name="DISP_TEXT_QUIT">退出</string>
+    <string name="DISP_TEXT_RESULTS_DISPLAY_MODE">显示结果</string>
+    <string name="DISP_TEXT_ROUTE_OVERVIEW">显示路线</string>
+    <string name="DISP_TEXT_SEARCH">搜索</string>
+    <string name="DISP_TEXT_SEARCH_DIRECTIONS">路线</string>
+    <string name="DISP_TEXT_SEARCH_NO_RESULT">没有找到任何结果</string>
+    <string name="DISP_TEXT_SEARCHING_CURRENT_LOCATION">查找您当前所处位置</string>
+    <string name="DISP_TEXT_SEARCHING_CURRENT_LOCATION_FAILED">未能定位您当前所处位置</string>
+    <string name="DISP_TEXT_SELECT_AN_ITEM">选择一个成分</string>
+    <string name="DISP_TEXT_SHOW_ON_MAP">在地图上显示</string>
+    <string name="DISP_TEXT_TITLE_CATEGORIES">类型</string>
+    <string name="DISP_TEXT_TITLE_SEARCHING">搜索中…</string>
+    <string name="DISP_TEXT_TRAFFIC">交通</string>
+    <string name="DISP_TEXT_TRAFFIC_HIDE">隐藏交通信息</string>
+    <string name="DISP_TEXT_TRAFFIC_SHOW">显示交通信息</string>
+    <string name="DISP_TEXT_WIKIPEDIA">Wikipédia</string>
+    <string name="S_MAIL_AUTHOR">作者</string>
+    <string name="S_MODE">模式</string>
+    <string name="XTEXT_PAIRED_DEVICE_EMPTY_1">无器械联结</string>
+</resources>

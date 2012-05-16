@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/config_list_row_size"
+    android:background="@color/transparent"
+    android:paddingLeft="@dimen/config_row_ListItem_left_margin"
+    android:descendantFocusability="blocksDescendants">
+    
+    <RelativeLayout
+   	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	
+    >
+ 
+		<LinearLayout
+ 	    android:id="@+id/ListItemRightAttributes"
+ 		android:layout_width="wrap_content" 
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        >
+		
+			<CheckBox 
+			android:id="@+id/ListItemCheckBox"
+	 		android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+		   	android:layout_marginRight="@dimen/config_checkbox_ListItem_left_margin"
+			android:button="@drawable/checkbox"
+			android:visibility="visible"
+	   		/>
+	   		
+	   		<RadioButton 
+			android:id="@+id/ListItemRadioButton"
+	 		android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"   	
+	        android:layout_centerVertical="true"
+			android:layout_marginRight="@dimen/config_checkbox_ListItem_left_margin"
+			android:button="@drawable/radiobutton"
+			android:visibility="gone"
+	   		/>
+		</LinearLayout>
+		
+		<!-- must be declared after the layout of checkbox -->		
+		<TextView 
+		android:id="@+id/text_row"
+		android:text="Toto" 
+		android:layout_width="fill_parent"
+	   	android:layout_height="fill_parent"
+        android:typeface="normal"
+		android:layout_gravity="center_vertical"
+		android:gravity="center_vertical"
+		android:singleLine="true"
+		android:textColor="@color/text_base_white_selec_black_dis_grey"
+		android:textSize="@dimen/config_text_ListItem_size"
+		android:scrollHorizontally="true" 
+		android:ellipsize="marquee"  
+		android:marqueeRepeatLimit="marquee_forever"
+		android:layout_toLeftOf="@+id/ListItemRightAttributes"
+		android:layout_marginRight="@dimen/config_checkbox_ListItem_left_margin"
+		
+		android:layout_alignWithParentIfMissing="true"
+		/>
+		
+	</RelativeLayout>
+</LinearLayout>

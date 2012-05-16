@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources>
+
+    <!-- ############################## -->
+    <!--   PARROT ASTEROID CONFIGURATIONS   -->
+    <!-- ############################## -->
+    
+    <!-- All Screens -->
+    <dimen name="config_row_size">47px</dimen>
+    <dimen name="config_list_row_size">47px</dimen>
+    <dimen name="config_divider_size">1px</dimen>
+    
+	<!-- List Screen -->
+    <dimen name="config_text_ListScreen_title_size">30px</dimen>
+    <dimen name="config_picto_ListScreen_title_right_margin">15px</dimen>
+    <dimen name="config_picto_ListScreen_notif_left_margin">15px</dimen>
+    <dimen name="config_row_ListScreen_title_left_and_right_margin">15px</dimen>
+        
+    <!-- ListItem -->
+    <!-- dimensions for layout -->
+    <dimen name="config_text_ListItem_size">26px</dimen>
+    <dimen name="config_picto_ListItem_right_margin">20px</dimen>
+    <dimen name="config_row_ListItem_left_margin">40px</dimen>
+    <dimen name="config_row_ListItem_right_margin">20px</dimen>
+    
+    <!-- Popups -->
+    <dimen name="config_popup_text_size">22px</dimen>
+    <dimen name="config_popup_maxWidth">340px</dimen>
+    <dimen name="config_popup_maxHeight">180px</dimen>
+    <dimen name="config_popup_margin">30px</dimen>
+    <dimen name="config_popup_horizontal_padding">20px</dimen>
+    <dimen name="config_popup_vertical_padding">10px</dimen>
+    <dimen name="config_popup_buttons_margin_top">15px</dimen>
+    <dimen name="config_popup_buttons_space_between">35px</dimen>
+</resources>

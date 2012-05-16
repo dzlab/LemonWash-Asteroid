@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+
+<resources>
+
+    <!-- Search by category keywords in English -->
+    <string-array name="keywords_en">
+        <item>~\"gas station\"|~\"petrol station\"|\"gas stations\"|\"petrol stations\"</item>
+        <item>(~bar)</item>
+        <item>restaurant</item>
+        <item>(~hotel)</item>
+        <item>\"movie theaters\"|\"movie theater\"</item>
+        <item>coffee</item>
+        <item>(dentist|doctor|hospital|clinic|pharmacy|drugstore|veterinarian)</item>
+        <item>category:parking | category:\"car park\"</item>
+        <item>(gym|sport|stadium|(swimming pool)|tennis)</item>
+        <item>(theater|museum|casino|park|library)</item>
+        <item>(ferry|railway|(bus station)|(subway station)|(train station)|airport)</item>
+        <item>(~shopping)</item>
+        <item>(bank|ATM)</item>
+        <item>(police|school|college|university|courthouse|embassy|(~church))</item>
+    </string-array>
+
+    <!-- Search by category keywords in French -->
+    <string-array name="keywords_fr">
+        <item>(station service)</item>
+        <item>(~bar)</item>
+        <item>restaurant</item>
+        <item>(~hotel)</item>
+        <item>cinema</item>
+        <item>(café|brasserie)</item>
+        <item>(hopital|pharmacie|médecin)</item>
+        <item>parking</item>
+        <item>(sport|stade|piscine|tennis)</item>
+        <item>(théatre|musée|parc|casino|bibliothèque)</item>
+        <item>(métro|gare|bus|aéroport)</item>
+        <item>(magasin)</item>
+        <item>(~banque)</item>
+        <item>(école|collège|université|ambassade|tribunal|(~religion))</item>
+    </string-array>
+
+    <!-- Search by category keywords in German -->
+    <string-array name="keywords_de">
+        <item></item>
+        <item>(~bar)</item>
+        <item>restaurant</item>
+        <item>hotel</item>
+        <item>kino</item>
+        <item>kaffee</item>
+        <item>gesundheit</item>
+        <item>parken</item>
+        <item></item>
+        <item>(theater|museum|park|kasino|bibliothek)</item>
+        <item>(bahnhof|bus|flughafen)</item>
+        <item>(shop)</item>
+        <item>(bank)</item>
+        <item>(schule|universität|polizei|religion)</item>
+    </string-array>
+
+    <!-- Search by category keywords in Italian -->
+    <string-array name="keywords_it">
+        <item>(stazione di servizio)</item>
+        <item>(~bar)</item>
+        <item>ristorante</item>
+        <item>hotel</item>
+        <item></item>
+        <item>caffè</item>
+        <item>(dentista|medico|ospedali|clinica|farmacia|veterinario)</item>
+        <item>category:parcheggio</item>
+        <item></item>
+        <item>(teatro|Museo|casino|parco|biblioteca)</item>
+        <item>(traghetti|ferroviario|(stazione degli autobus)|(stazione della metropolitana)|(stazione ferroviaria)|aeroporto)</item>
+        <item>(~shopping)</item>
+        <item>(banca|bancomat)</item>
+        <item>(polizia|scuola|college|Università|tribunale|ambasciata|(~chiesa))</item>
+    </string-array>
+    
+    <!-- Search by category keywords in Spanish -->
+    <string-array name="keywords_sp">
+        <item>(estación de servicio)</item>
+        <item>(~bar)</item>
+        <item>restaurante</item>
+        <item>hotel</item>
+        <item>\"sala de cine\"</item>
+        <item>café</item>
+        <item>(dentista|médico|Hospital|Clínica|farmacia|farmacia|veterinario)</item>
+        <item>aparcamiento</item>
+        <item></item>
+        <item>(teatro|museo|casino|parque|biblioteca)</item>
+        <item>(transbordador|tren|autobuses|metro|estación|aeropuerto)</item>
+        <item>(~compras)</item>
+        <item>(banco|(cajero automático))</item>
+        <item>(policía|escuela|universidad|corte|Embajada|(~iglesia))</item>
+    </string-array>
+
+    <!-- Search by category keywords in Portuguese -->
+    <string-array name="keywords_pt">
+        <item>(posto de gasolina)</item>
+        <item>(~bar)</item>
+        <item>restaurante</item>
+        <item>(~hotel)</item>
+        <item>(cinema)</item>
+        <item>café</item>
+        <item>(dentista|médico|hospital|clínica|drogaria|farmácia|veterinário)</item>
+        <item>estacionamento</item>
+        <item>(desporto|estádio|piscina|ténis)</item>
+        <item>(teatro|museu|casino|parque|biblioteca)</item>
+        <item>(ferry|comboios|(estação rodoviária)|metro|(estação ferroviária)|aeroporto)</item>
+        <item>(~shopping)</item>
+        <item>(banco|(caixa multibanco))</item>
+        <item>(polícia|escola|faculdade|universidade|tribunal|embaixada|(~igreja))</item>
+    </string-array>
+
+    <!-- Search by category keywords in Dutch -->
+    <string-array name="keywords_du">
+         <item>tankstation</item>
+         <item></item>
+         <item>restaurant</item>
+         <item>(~hotel)</item>
+         <item>bioscoop</item>
+         <item>café</item>
+         <item>(tandarts|arts|dokter|Ziekenhuis|kliniek|apotheek|drogist|dierenarts)</item>
+         <item>(parkeergarage|parkeerplaats)</item>
+         <item>(sport|stadion|zwembad|tennis)</item>
+         <item>(theater|museum|Casino|park|bibliotheek)</item>
+         <item>(veerboot|spoorwegen|busstation|metrostation|treinstation|luchthaven|vliegveld)</item>
+         <item>(~winkelen)</item>
+         <item>(bank|geldautomaten)</item>
+         <item>(politie|school|College|universiteit|gerechtsgebouw|Ambassade|(~kerk))</item>
+    </string-array>
+
+    <!-- Search by category keywords in Belgium -->
+    <string-array name="keywords_be">
+         <item>~\"gas station\"|~\"petrol station\"|\"gas stations\"|\"petrol stations\"</item>
+         <item>(~bar)</item>
+         <item>restaurant</item>
+         <item>(~hotel)</item>
+         <item>\"movie theaters\"|\"movie theater\"|cinema|bioscoop</item>
+         <item>coffee|café</item>
+         <item>(dentist|doctor|hospital|clinic|pharmacy|drugstore|veterinarian)|(hopital|pharmacie|médecin)|(tandarts|arts|dokter|Ziekenhuis|kliniek|apotheek|drogist|dierenarts)</item>
+         <item>category:parking | category:\"car park\" | (parkeergarage|parkeerplaats)</item>
+         <item>(gym|sport|stadium|(swimming pool)|tennis) | (stade|piscine) | (stadion|zwembad)</item>
+         <item>(theater|museum|casino|park|library) | (théatre|musée|parc|bibliothèque) | (bibliotheek)</item>
+         <item></item>
+         <item>(~shopping) | (~magasin)</item>
+         <item>(bank|ATM) | (~banque) | (geldautomaten)</item>
+         <item>(police|school|college|university|courthouse|embassy|(~church))|(école|collège|université|ambassade|tribunal|(~religion))|(politie|school|College|universiteit|gerechtsgebouw|Ambassade|(~kerk))</item>
+    </string-array>
+    
+    <!-- Search by category keywords in China -->
+    <string-array name="keywords_zh">
+        <item>加油站</item>
+        <item>(~酒吧)</item>
+        <item>(餐馆|饭馆)</item>
+        <item>(酒店|旅馆)</item>
+        <item>电影院</item>
+        <item>咖啡馆</item>
+        <item>(医院|药店|医生)</item>
+        <item>停车场</item>
+        <item>(运动|体育场|游泳池)</item>
+        <item>(剧院|博物馆|公园|赌场|图书馆)</item>
+        <item>(地铁|火车站|汽车站|飞机场)</item>
+        <item>(商场|商店|百货公司)</item>
+        <item>(银行|自动取款机)</item>
+        <item>(学校|中学|大学|大使馆|法院|法庭|宗教|教堂)</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+ParrotMaps
+----------
+
+
+* Import project in Eclipse :
+
+The ParrotMaps project needs the Android 1.5 SDK.
+
+To import the ParrotMaps project in the Eclipse IDE :
+   - File -> Import
+   - Select "Existing Projects into Workspace"
+   - Browse to ParrotMaps project
+   - Select "Finish"
+
+  
+* Maps API Key :
+
+In order to display Google Maps data, you must register with the Google Maps service and obtain a Maps API Key.
+For information about how to get a Maps API Key, see:
+    http://code.google.com/android/add-ons/google-apis/mapkey.html.
+Once you have an Maps API Key, insert it in the files:
+     - res/layout/maplayout.xml
+     - res/layout-notouch/maplayout.xml

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<resources>
+
+ <style name="TextList">
+    <item name="android:divider">@color/list_divider_color</item>
+    <item name="android:dividerHeight">@dimen/dim_list_text_divider_height</item>
+    <item name="android:background">@color/plainBlack</item>
+    <item name="android:fadingEdge">none</item>
+    <item name="android:listSelector">@drawable/list_selector_background</item>
+ </style>
+
+ <style name="TextListRow">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_text_item_height</item>
+    <item name="android:paddingLeft">@dimen/dim_list_text_item_left_margin</item>
+    <item name="android:paddingRight">@dimen/dim_list_text_item_right_margin</item>
+    <item name="android:textSize">@dimen/dim_list_text_item_text_size</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textColor">@color/text_base_white_selec_black_dis_grey</item>
+ </style>
+ 
+ <style name="EditTextListRow">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_text_item_height</item>
+    <item name="android:paddingLeft">@dimen/dim_list_text_item_left_margin</item>
+    <item name="android:paddingRight">@dimen/dim_list_text_item_right_margin</item>
+    <item name="android:textSize">@dimen/dim_list_text_item_text_size</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textColor">@color/text_base_white_selec_black_dis_grey</item>
+    <item name="android:textColorHint">@color/text_base_white_selec_black_dis_grey</item>
+    <item name="android:background">@drawable/list_selector_background</item>
+    <item name="android:cursorVisible">false</item>
+ </style>
+
+ <style name="ListTitle">
+    <item name="android:background">@drawable/toptitle_pmaps</item>
+    <item name="android:paddingLeft">@dimen/dim_list_header_left_margin</item>
+    <item name="android:paddingRight">@dimen/dim_list_header_right_margin</item>
+ </style>
+
+ <style name="ListTitleText"
+        parent="ListTitle">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_header_height</item>
+    <item name="android:textSize">@dimen/dim_list_header_text_size</item>
+    <item name="android:gravity">center_vertical</item>
+ </style>
+
+ <style name="NoTitleListRow">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_notitle_item_height</item>
+ </style>
+
+ <style name="ListRowWithIcon">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_row_with_icon_height</item>
+ </style>
+
+ <style name="ListRowWithIconText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_list_row_with_icon_height</item>
+    <item name="android:paddingLeft">@dimen/dim_list_row_with_icon_text_left_margin</item>
+    <item name="android:textSize">@dimen/dim_list_row_with_icon_text_size</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textColor">@color/text_base_white_selec_black_dis_grey</item>
+    <item name="android:duplicateParentState">true</item>
+ </style>
+
+ <style name="ListRowWithIconImage">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">@dimen/dim_list_row_with_icon_height</item>
+    <item name="android:duplicateParentState">true</item>
+ </style>
+
+ <style name="ResultDetailsTitleLayout">
+    <item name="android:background">@drawable/toptitle_pmaps</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/dim_res_details_title_height</item>
+    <item name="android:paddingLeft">@dimen/dim_list_header_left_margin</item>
+    <item name="android:paddingRight">@dimen/dim_list_header_right_margin</item>
+    <item name="android:paddingTop">5px</item>
+ </style>
+
+ <style name="ResultsDetailsRowLayout">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">46px</item>
+ </style>
+
+ <style name="ResultDetailsTitleText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/plainWhite</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:typeface">normal</item>
+ </style>
+
+ <style name="ResultDetailsTitleTextName"
+        parent="ResultDetailsTitleText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:textStyle">bold</item>
+ </style>
+
+ <style name="ResultDetailsTitleTextAddress"
+        parent="ResultDetailsTitleText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16px</item>
+ </style>
+
+ <style name="ResultDetailsTitleTextDistance"
+        parent="ResultDetailsTitleText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18px</item>
+        <item name="android:gravity">right</item>
+ </style>
+
+ <style name="DirectionsListRowInstructionText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:minHeight">32px</item>
+    <item name="android:textSize">24px</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingLeft">25px</item>
+    <item name="android:paddingRight">20px</item>
+    <item name="android:layout_weight">1.1</item>
+ </style>
+
+ <style name="DirectionsListRowDistanceText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:textSize">18px</item>
+    <item name="android:gravity">right|bottom</item>
+    <item name="android:paddingTop">10px</item>
+    <item name="android:paddingRight">20px</item>
+    <item name="android:layout_weight">0.0</item>
+ </style>
+
+ <style name="ResultsRowMainText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:textSize">@dimen/dim_list_notitle_item_main_text_size</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingRight">20px</item>
+    <item name="android:layout_weight">1.1</item>
+ </style>
+
+ <style name="ResultsRowSubText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:textSize">@dimen/dim_list_notitle_item_sub_text_size</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:paddingRight">20px</item>
+    <item name="android:layout_weight">1.1</item>
+ </style>
+
+ <style name="ResultsRowDistanceText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:textSize">18px</item>
+    <item name="android:gravity">right|bottom</item>
+    <item name="android:paddingTop">10px</item>
+    <item name="android:paddingRight">20px</item>
+    <item name="android:layout_weight">0.0</item>
+ </style>
+ 
+<!--  <style name="Theme.Rnb4.Popup" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/rnb_popup</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>  -->
+
+</resources>

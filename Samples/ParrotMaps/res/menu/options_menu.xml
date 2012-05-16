@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/options_menu_item_quick_search"
+          android:title="@string/options_menu_item_quick_search"
+          android:icon="@android:drawable/ic_search_category_default"/>
+
+    <item android:id="@+id/options_menu_item_search"
+          android:title="@string/options_menu_item_search"
+          android:icon="@android:drawable/ic_search_category_default"/>
+
+    <item android:id="@+id/options_menu_item_mylocation"
+          android:title="@string/options_menu_item_mylocation"
+          android:visible="false"/>
+
+    <item android:id="@+id/options_menu_item_traffic"
+          android:visible="false"/>
+
+    <item android:id="@+id/options_menu_item_map_mode"
+          android:title="@string/options_menu_item_map_mode"
+          android:icon="@android:drawable/ic_menu_mapmode">
+         
+         <menu>
+              <group android:id="@+id/map_mode_group" android:enabled="true" android:visible="true" android:checkableBehavior="single">
+	               <item android:id="@+id/map_mode_map"
+	                     android:title="@string/map_mode_map" android:checked="true" android:visible="false"/>
+	               <item android:id="@+id/map_mode_satellite"
+	                     android:title="@string/map_mode_satellite" android:visible="false"/>
+	               <item android:id="@+id/map_mode_hybrid"
+	                     android:title="@string/map_mode_hybrid" android:visible="false"/>
+	               <item android:visible="false" android:title="@string/map_mode_terrain" android:id="@+id/map_mode_terrain"/>
+              </group>
+         </menu>
+	       
+    </item>
+
+    <item android:id="@+id/options_menu_item_result_display"
+          android:title="@string/options_menu_item_result_display"
+          android:icon="@android:drawable/ic_menu_mapmode"
+          android:visible="false">
+          <menu>
+              <group android:id="@+id/results_display_group" android:enabled="true" android:visible="true" android:checkableBehavior="single">
+                  <item android:id="@+id/results_display_map"
+                        android:title="@string/results_display_map" android:checked="true"/>
+                  <item android:id="@+id/results_display_result_list"
+                        android:title="@string/results_display_result_list"/>
+                  <item android:id="@+id/results_display_map_and_result_list"
+                        android:title="@string/results_display_map_and_result_list"/>
+              </group>
+         </menu>
+    </item>
+    
+    <item android:id="@+id/options_menu_item_directions_display"
+          android:title="@string/options_menu_item_directions_display"
+          android:icon="@android:drawable/ic_menu_mapmode"
+          android:visible="false">
+          <menu>
+              <group android:id="@+id/directions_result_display_group" android:enabled="true" android:visible="true" android:checkableBehavior="single">
+                  <item android:id="@+id/directions_display_map"
+                        android:title="@string/directions_display_map" android:checked="true"/>
+                  <item android:id="@+id/directions_display_instruction_list"
+                        android:title="@string/directions_display_instruction_list"/>
+                  <item android:id="@+id/directions_display_map_and_instruction_list"
+                        android:title="@string/directions_display_map_and_instruction_list"/>
+              </group>
+         </menu>
+    </item>
+
+    <item android:id="@+id/options_menu_item_directions"
+          android:title="@string/options_menu_item_directions"
+          android:icon="@android:drawable/ic_menu_directions"/>
+
+    <item android:id="@+id/options_menu_item_layers"
+          android:title="@string/options_menu_item_layers"
+          android:icon="@android:drawable/ic_menu_myplaces">
+        <menu>
+            <group android:checkableBehavior="all">
+	            <item android:id="@+id/layer_traffic"
+	                  android:title="@string/layer_traffic"
+	                  android:visible="false"/>
+	            <item android:id="@+id/layer_wikipedia"
+	                  android:title="@string/layer_wikipedia"/>
+	            <item android:id="@+id/layer_photos"
+	                  android:title="@string/layer_photos"/>
+            </group>
+        </menu>                 
+    </item>
+
+    <item android:id="@+id/options_menu_item_activate_tts"
+          android:checkable="true"/>
+
+    <item android:id="@+id/options_menu_item_clean_map"
+          android:title="@string/options_menu_item_clean_map"
+          android:visible="false"/>
+
+    <item android:id="@+id/options_menu_item_exit"
+          android:title="@string/options_menu_item_exit"/>
+
+</menu>

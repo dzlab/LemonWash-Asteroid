@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/options_menu_hello" android:title="@string/hello" />
+	<item android:id="@+id/options_menu_quit" android:title="@string/quit" />
+</menu>

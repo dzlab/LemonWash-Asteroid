@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Copyright (c) 2011, Parrot
+  All rights reserved.
+ 
+  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+ 
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+ 
+    * Neither the name of "Parrot SA" nor the names of its
+      contributors may be used to endorse or promote products derived from
+      this software without specific prior written permission.
+ 
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ -->
+<resources>
+    <string name="DISP_STATE_POPUP_TITLE_WRITEWARNING">Veuillez patienter</string>
+    <string name="DISP_TEXT_ADD_TO_CONTACTS">Ajouter aux contacts</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK">Ajouter à la liste des POI</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK_FAILED">L\'ajout du POI a échoué</string>
+    <string name="DISP_TEXT_ADD_TO_POI_BOOK_SUCCESS">POI ajouté à la liste</string>
+    <string name="DISP_TEXT_ADDRESSES_PROGRESS">Recherche des adresses</string>
+    <string name="DISP_TEXT_APP_MAPS">Cartes</string>
+    <string name="DISP_TEXT_BUTTON_OK">Ok</string>
+    <string name="DISP_TEXT_CALL">Appeler</string>
+    <string name="DISP_TEXT_CHOOSE_ADDRESS">Choisissez une adresse</string>
+    <string name="DISP_TEXT_CLEAN_MAP">Effacer les résultats</string>
+    <string name="DISP_TEXT_DIRECTION_NOT_FOUND">Aucun itinéraire trouvé</string>
+    <string name="DISP_TEXT_DIRECTION_PROGRESS">Calcul de l\'itinéraire</string>
+    <string name="DISP_TEXT_DIRECTIONS_ARRIVAL_POINT">Point d\'arrivée</string>
+    <string name="DISP_TEXT_DIRECTIONS_CHOOSE_DESTINATION">Veuillez définir un point d\'arrivée</string>
+    <string name="DISP_TEXT_DIRECTIONS_CHOOSE_START">Veuillez définir un point de départ</string>
+    <string name="DISP_TEXT_DIRECTIONS_START_POINT">Point de départ</string>
+    <string name="DISP_TEXT_DOWNLOAD_FAILED">Une erreur est survenue pendant le téléchargement</string>
+    <string name="DISP_TEXT_DOWNLOADING_PHOTO">Téléchargement de la photo</string>
+    <string name="DISP_TEXT_ERROR_NO_LOCATION">Cette application nécessite une position GPS valide </string>
+    <string name="DISP_TEXT_ERROR_NO_NAVIGATION_SOFTWARE">Application de navigation GPS indisponible</string>
+    <string name="DISP_TEXT_ERROR_NO_NETWORK">Cette application nécessite une connexion au réseau Internet</string>
+    <string name="DISP_TEXT_ERROR_NO_NETWORK_FEATURE">Cette fonction nécessite une connexion au réseau Internet</string>
+    <string name="DISP_TEXT_FULL_ARTICLE">Article complet</string>
+    <string name="DISP_TEXT_GOTO">Y aller !</string>
+    <string name="DISP_TEXT_INVERT">Inverser</string>
+    <string name="DISP_TEXT_LAYER_PHOTOS">Photos</string>
+    <string name="DISP_TEXT_LAYERS">Couches</string>
+    <string name="DISP_TEXT_MODE_LIST">Liste</string>
+    <string name="DISP_TEXT_MODE_LIST_AND_MAP">Liste + carte</string>
+    <string name="DISP_TEXT_MODE_MAP">Carte</string>
+    <string name="DISP_TEXT_MODE_SATELLITE">Satellite</string>
+    <string name="DISP_TEXT_MY_LOCATION">Ma position</string>
+    <string name="DISP_TEXT_MY_LOCATION_UNKNWON">Position courante inconnue</string>
+    <string name="DISP_TEXT_NETWORK_ERROR">Une erreur réseau s\'est produite</string>
+    <string name="DISP_TEXT_NEXT_RESULTS">Suivants</string>
+    <string name="DISP_TEXT_POI_CATEGORY_BARS">Bars</string>
+    <string name="DISP_TEXT_POI_CATEGORY_COFFE">Cafés</string>
+    <string name="DISP_TEXT_POI_CATEGORY_COMMUNITY">Lieux publics</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FINANCE">Finances</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FREE">Autre</string>
+    <string name="DISP_TEXT_POI_CATEGORY_FUELSTATIONS">Stations services</string>
+    <string name="DISP_TEXT_POI_CATEGORY_HOTELS">Hôtels</string>
+    <string name="DISP_TEXT_POI_CATEGORY_LEISURE">Loisirs</string>
+    <string name="DISP_TEXT_POI_CATEGORY_MEDICAL">Santé</string>
+    <string name="DISP_TEXT_POI_CATEGORY_MOVIE_THEATERS">Cinémas</string>
+    <string name="DISP_TEXT_POI_CATEGORY_PARKINGS">Parkings</string>
+    <string name="DISP_TEXT_POI_CATEGORY_RESTAURANTS">Restaurants</string>
+    <string name="DISP_TEXT_POI_CATEGORY_SHOPPING">Magasins</string>
+    <string name="DISP_TEXT_POI_CATEGORY_SPORT">Sport</string>
+    <string name="DISP_TEXT_POI_CATEGORY_TRANSPORT">Transport</string>
+    <string name="DISP_TEXT_POPUP_TEXT_CONTACTS">Contacts</string>
+    <string name="DISP_TEXT_PREVIOUS_RESULTS">Précédents</string>
+    <string name="DISP_TEXT_QUICK_SEARCH">Recherche rapide</string>
+    <string name="DISP_TEXT_QUIT">Quitter</string>
+    <string name="DISP_TEXT_RESULTS_DISPLAY_MODE">Affichage résultats</string>
+    <string name="DISP_TEXT_ROUTE_OVERVIEW">Aperçu du trajet</string>
+    <string name="DISP_TEXT_SEARCH">Rechercher</string>
+    <string name="DISP_TEXT_SEARCH_DIRECTIONS">Itinéraire</string>
+    <string name="DISP_TEXT_SEARCH_NO_RESULT">Aucun résultat trouvé</string>
+    <string name="DISP_TEXT_SEARCHING_CURRENT_LOCATION">Recherche de votre position...</string>
+    <string name="DISP_TEXT_SEARCHING_CURRENT_LOCATION_FAILED">Votre position n\'a pas pu être déterminée</string>
+    <string name="DISP_TEXT_SELECT_AN_ITEM">Choisissez un élément</string>
+    <string name="DISP_TEXT_SHOW_ON_MAP">Afficher sur la carte</string>
+    <string name="DISP_TEXT_TITLE_CATEGORIES">Catégories</string>
+    <string name="DISP_TEXT_TITLE_SEARCHING">Recherche en cours…</string>
+    <string name="DISP_TEXT_TRAFFIC">Trafic</string>
+    <string name="DISP_TEXT_TRAFFIC_HIDE">Cacher info trafic</string>
+    <string name="DISP_TEXT_TRAFFIC_SHOW">Afficher info trafic</string>
+    <string name="DISP_TEXT_WIKIPEDIA">Wikipédia</string>
+    <string name="S_MAIL_AUTHOR">Auteur</string>
+    <string name="S_MODE">Mode</string>
+    <string name="XTEXT_PAIRED_DEVICE_EMPTY_1">Aucun appareil jumelé</string>
+</resources>

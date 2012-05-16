@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:text="Smart grise AD456DK"
+        	/>
+    <TextView android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:text="Temps maximum estimé: 2 heures"
+        	/>
+    <TextView android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+        	android:text="Coût: 29,9€"
+        	/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+         
+        <Button android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:text="Confirmer"            
+            background="@drawable/green_button"
+            />
+        <Button android:id="@+id/btnAnnuler"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Annuler" 
+        	background="@drawable/green_button"
+        	/>
+    </LinearLayout>
+</LinearLayout>
